@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <rect width="1200" height="640" rx="18" fill="#0d1117"/>
+  <rect width="1200" height="54" rx="18" fill="#161b22"/>
+  <circle cx="28" cy="27" r="7" fill="#ff5f56"/><circle cx="52" cy="27" r="7" fill="#ffbd2e"/><circle cx="76" cy="27" r="7" fill="#27c93f"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#c9d1d9">
+    <text x="34" y="96" fill="#7ee787">PS&gt;</text>
+    <text x="82" y="96">node --test cli-install, codex-remote, expand-tilde, transcript-project-dir</text>
+    <text x="34" y="144" fill="#f85149">✖ the native rung actually runs, and says why it differs</text>
+    <text x="34" y="180" fill="#f85149">✖ with npm present nothing mentions a missing Node</text>
+    <text x="34" y="216" fill="#f85149">✖ Codex remote uses a short stable per-agent home alias</text>
+    <text x="34" y="252" fill="#f85149">✖ the current directory wins even when a legacy twin exists</text>
+    <text x="34" y="288" fill="#f85149">✖ the dotted legacy twin loses to the dotted current spelling</text>
+    <text x="34" y="324" fill="#f85149">✖ a legacy-only install still resolves</text>
+    <text x="34" y="360" fill="#f85149">✖ a legacy-only install with dots resolves to its undashed twin</text>
+    <text x="34" y="424">ℹ tests 34</text>
+    <text x="34" y="460">ℹ pass 27</text>
+    <text x="34" y="496" fill="#f85149">ℹ fail 7</text>
+    <text x="34" y="532">ℹ skipped 0</text>
+    <text x="34" y="588" fill="#8b949e">Windows 11 · upstream main a34a5bbe · before patch</text>
+  </g>
+</svg>

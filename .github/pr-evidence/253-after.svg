@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
+  <rect width="1200" height="640" rx="18" fill="#0d1117"/>
+  <rect width="1200" height="54" rx="18" fill="#161b22"/>
+  <circle cx="28" cy="27" r="7" fill="#ff5f56"/><circle cx="52" cy="27" r="7" fill="#ffbd2e"/><circle cx="76" cy="27" r="7" fill="#27c93f"/>
+  <g font-family="Consolas, 'Courier New', monospace" font-size="21" fill="#c9d1d9">
+    <text x="34" y="96" fill="#7ee787">PS&gt;</text>
+    <text x="82" y="96">node --test cli-install, codex-remote, expand-tilde, transcript-project-dir</text>
+    <text x="34" y="144" fill="#3fb950">✔ POSIX install-script assertions use an explicit platform</text>
+    <text x="34" y="180" fill="#3fb950">✔ Windows cmd.exe assertions still run explicitly</text>
+    <text x="34" y="216" fill="#d29922">﹣ Unix-socket assertion skipped: production disables it on Windows</text>
+    <text x="34" y="252" fill="#3fb950">✔ transcript fixtures redirect USERPROFILE on Windows</text>
+    <text x="34" y="288" fill="#d29922">﹣ two pre-2026 POSIX legacy-key assertions skipped on Windows</text>
+    <text x="34" y="352">ℹ tests 34</text>
+    <text x="34" y="388" fill="#3fb950">ℹ pass 31</text>
+    <text x="34" y="424" fill="#3fb950">ℹ fail 0</text>
+    <text x="34" y="460" fill="#d29922">ℹ skipped 3</text>
+    <text x="34" y="516" fill="#3fb950">Typecheck: node ✔  web ✔     Production build ✔</text>
+    <text x="34" y="588" fill="#8b949e">Windows 11 · branch test/issue-253-windows-paths · after patch</text>
+  </g>
+</svg>
